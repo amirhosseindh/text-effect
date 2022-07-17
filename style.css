@@ -1,0 +1,16 @@
+svg text{
+  stroke: #00ccff;
+  stroke-width: 3px;
+  fill: transparent;
+  font-size: 43px;
+  animation: fade 3s linear infinite alternate;
+}
+@keyframes fade{
+  from{
+    stroke-dasharray: 0 70%;
+  }
+  to{
+    stroke-dasharray: 50% 0;
+    stroke-dashoffset: 10%;
+  }
+}
